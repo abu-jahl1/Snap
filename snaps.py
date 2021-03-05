@@ -47,7 +47,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 def start():
     global story_endpoint_final
     log_seperator()
-    log_info_blue('PYSNAPSTORIES (SCRIPT V{:s} - PYTHON V{:s}) - {:s}'.format(
+    log_info_blue('ABUJAHL SNAPSTORIES (SCRIPT V{:s} - PYTHON V{:s}) - {:s}'.format(
         script_version, python_version, time.strftime('%I:%M:%S %p')))
     log_seperator()
 
