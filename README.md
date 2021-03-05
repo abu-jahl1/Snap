@@ -1,14 +1,14 @@
-# Notice
+ Notice
 Snapchat is constantly changing how their backend returns information (for the worse). The script may stop working at any time and no updates are guaranteed.
 
-# PySnapStories
+ ABUJAHL SnapStories
 A Python script to download public Snapchat user stories from verified accounts, subjects and Map events.
 
-# How to use
+ How to use
 
 Go to https://story.snapchat.com/ and search for Snapchat stories you wish to download.
 
-PySnapStories supports the following input formats:
+ABUJAHL SnapStories supports the following input formats:
 
 ```
 loren (Username story)
@@ -34,12 +34,12 @@ Inside this folder the stories will be downloaded with visual overlays removed w
 The `embedded` folder contains the same stories but with the overlays untouched, just as you would see them on Snapchat.  
 When downloading usernames, an `overlay` folder will be created containing saved overlays whenever they are detected on Snapchat stories.
 
-### Example
+ Example
 
 ```
-> python3 pysnapstories.py loren
+> python3 snaps.py loren
 -----------------------------------------------------------------------------------------------
-[I] PYSNAPSTORIES (SCRIPT V2.0 - PYTHON V3.7.3) - 07:15:11 PM
+[I] ABUJAHL SnapStories (SCRIPT V2.0 - PYTHON V3.7.3) - 07:15:11 PM
 -----------------------------------------------------------------------------------------------
 [I] Treating input as username. (no ID was detected)
 [I] Starting download for user: loren
